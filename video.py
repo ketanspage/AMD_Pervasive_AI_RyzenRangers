@@ -2,8 +2,8 @@ import cv2
 import os
 from moviepy.editor import VideoFileClip, AudioFileClip
 
-def add_text_to_frame(frame, text, position, font, font_scale, color, thickness):
-    return cv2.putText(frame, text, position, font, font_scale, color, thickness, cv2.LINE_AA)
+#def add_text_to_frame(frame, text, position, font, font_scale, color, thickness):
+#    return cv2.putText(frame, text, position, font, font_scale, color, thickness, cv2.LINE_AA)
 
 def images_to_video_with_music_and_text(image_folder, output_video, music_file, text, text_position, frame_rate=1):
     # Get list of images
@@ -25,7 +25,7 @@ def images_to_video_with_music_and_text(image_folder, output_video, music_file, 
         frame = cv2.imread(image_path)
         
         # Add text to frame
-        frame = add_text_to_frame(frame, text, text_position, cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 0), 2)
+        #frame = add_text_to_frame(frame, text, text_position, cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 0), 2)
         
         # Repeat each frame according to frame_rate
         for _ in range(frame_rate):
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     image_folder = sys.argv[1]
     output_video = sys.argv[2]
     music_file = sys.argv[3]
-    text = sys.argv[4]
+    
     text_position = (50, 250)  # Adjust position (x, y) as needed
-    frame_rate = int(sys.argv[5]) if len(sys.argv) > 5 else 4
-    images_to_video_with_music_and_text(image_folder, output_video, music_file, text, text_position, frame_rate)
+    frame_rate = int(sys.argv[4]) if len(sys.argv) > 5 else 4
+    images_to_video_with_music_and_text(image_folder, output_video, music_file,text_position, frame_rate)

@@ -10,10 +10,10 @@ def main():
     output_video = input("Enter the name of the output video file: ")
     frame_rate = int(input("Enter the frame rate for the video (default is 4): "))
     # Generate images
-    subprocess.run(["python", "image_gen.py", base_prompt, str(n), image_folder])
+    subprocess.run(["python", "image_gen.py", base_prompt, str(n), text, image_folder])
 
     # Create video from images
-    subprocess.run(["python", "video.py", image_folder, output_video, music_file, text,str(frame_rate)])
+    subprocess.run(["python", "video.py", image_folder, output_video, music_file,str(frame_rate)])
 
 if __name__ == "__main__":
     main()
