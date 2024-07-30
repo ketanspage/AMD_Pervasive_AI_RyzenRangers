@@ -116,11 +116,11 @@ The code can be found in the **`image_gen.py`**
 - Ensure you have a valid Hugging Face API token and update the `HEADERS` variable in `image_gen.py` with your token.
 - Adjust the `text_position` variable in `video.py` if you want to change the position of the overlay text on the video frames.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Video Output
 
 ![Video Title](Video_Output/Sample_Output.gif)
+
+## License
+
+This project is licensed under the MIT License.
 ---
