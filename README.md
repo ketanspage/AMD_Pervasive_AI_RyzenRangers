@@ -21,6 +21,7 @@ pip install -r requirements.txt
 
 ## API Calls
 **https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3-medium-diffusers**
+
 **https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3**
 
 ## Files
