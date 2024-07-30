@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ### 1. Generate Images and Create Video
 
-To generate images and create a video, run the `app.py` script:
+To generate images and create a video, run the `app.py` or 'streamapp.py' script:
 
 ```bash
 python app.py
