@@ -33,6 +33,7 @@ To generate images and create a video, run the `app.py` or 'streamapp.py' script
 
 ```bash
 python app.py
+streamlit run streamapp.py
 ```
 
 You will be prompted to enter the following details:
@@ -107,6 +108,8 @@ This project introduces a novel approach to overlaying text on generated images 
 3. **Adaptive Text Color Selection**: Based on the brightness of the region, the text color is dynamically chosen to ensure high contrast and legibility. For instance, if the region is mostly dark, a light-colored text is used, and vice versa.
 
 This method enhances the aesthetic quality of the overlay text, making it more readable and visually integrated with the image.
+
+The code can be found in the **`image_gen.py`**
   
 ## Notes
 
