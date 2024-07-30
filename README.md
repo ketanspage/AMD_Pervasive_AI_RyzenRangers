@@ -19,6 +19,10 @@ Install the required packages using:
 pip install -r requirements.txt
 ```
 
+## API Calls
+**https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3-medium-diffusers**
+**https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3**
+
 ## Files
 
 - **`image_gen.py`**: Generates images using text prompts and overlays text on the images.
