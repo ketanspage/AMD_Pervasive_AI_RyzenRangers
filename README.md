@@ -121,6 +121,6 @@ The code can be found in the **`image_gen.py`**
 ![Video Title](Video_Output/Sample_Output.gif)
 
 ## License
+This project is licensed under MIT License.
 
-This project is licensed under the MIT License.
 ---
