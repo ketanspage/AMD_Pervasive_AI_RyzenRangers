@@ -96,10 +96,17 @@ Enter the name of the output video file: output_video.mp4
 Enter the frame rate for the video (default is 4): 4
 ```
 
-## Novelty
-- This project solves the issue of "Overlaying text on Videos and Images".
-- The following method has been employed to achieve the aforesaid novelty:
-      -  
+### Novelty
+
+This project introduces a novel approach to overlaying text on generated images by utilizing edge density detection and histogram analysis. Here’s how the process works:
+
+1. **Edge Density Detection**: The algorithm scans the generated image to identify regions with lower edge density, which are likely to be visually simpler or "empty" areas. These regions are ideal for placing text, as they are less likely to obscure important parts of the image.
+
+2. **Histogram Analysis for Brightness**: After identifying potential areas for text placement, the histogram function from OpenCV is used to analyze the brightness levels within these regions. This analysis helps determine whether the area is predominantly light or dark.
+
+3. **Adaptive Text Color Selection**: Based on the brightness of the region, the text color is dynamically chosen to ensure high contrast and legibility. For instance, if the region is mostly dark, a light-colored text is used, and vice versa.
+
+This method enhances the aesthetic quality of the overlay text, making it more readable and visually integrated with the image.
   
 ## Notes
 
