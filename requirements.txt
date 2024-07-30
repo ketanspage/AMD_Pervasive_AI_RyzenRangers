@@ -1,3 +1,8 @@
 opencv
 moviepy
 pillow
+requests
+numpy
+subprocess
+opencv-python
+streamlit
