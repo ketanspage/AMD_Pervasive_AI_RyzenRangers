@@ -101,7 +101,7 @@ Enter the folder to save generated images (default is 'images'): images
 Enter the name of the output video file: output_video.mp4
 Enter the frame rate for the video (default is 4): 4
 ```
-This same can be done on a StreamLit interface by running the `Streamapp.py' file
+This same can be done on a StreamLit interface by running the `streamapp.py` file
 ### Novelty
 
 This project introduces a novel approach to overlaying text on generated images by utilizing edge density detection and histogram analysis. Here’s how the process works:
