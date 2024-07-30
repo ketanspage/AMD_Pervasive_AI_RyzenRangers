@@ -16,7 +16,7 @@ Before starting, ensure that you have the following installed:
 Install the required packages using:
 
 ```bash
-pip install requests Pillow numpy opencv-python moviepy
+pip install -r requirements.txt
 ```
 
 ## Files
