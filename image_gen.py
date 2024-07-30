@@ -9,7 +9,7 @@ import numpy as np
 # Set up the API URLs and headers
 IMAGE_API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3-medium-diffusers"
 TEXT_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": YOUR_TOKEN}
 
 def query_image(payload):
     response = requests.post(IMAGE_API_URL, headers=HEADERS, json=payload)
