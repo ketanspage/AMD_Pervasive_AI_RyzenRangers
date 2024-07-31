@@ -124,9 +124,11 @@ The code can be found in the **`image_gen.py`**
 ## Video Output
 
 ![Video Title](Video_Output/Sample_Output.gif)
+
 **Prompt** - "Create a Science Fiction video for a rocket company operating from Mars"
 
 ![Video Title](Video_Output/Tom_Cruise_Phone.gif)
+
 **Prompt** - "Tom cruise advertising a mobile phone for 50% Sale"
 
 ## License
