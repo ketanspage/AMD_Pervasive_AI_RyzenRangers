@@ -124,6 +124,7 @@ The code can be found in the **`image_gen.py`**
 ## Video Output
 
 ![Video Title](Video_Output/Sample_Output.gif)
+# Prompt - "Create a Science Fiction video for a rocket company operating from Mars"
 
 ## License
 This project is licensed under MIT License.
